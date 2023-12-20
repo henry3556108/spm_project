@@ -109,11 +109,11 @@ void fnQuickSort(int a[], int 1, int r)
 	}
 }
 
-void fnGenRandInput(int X[], int n) {
+void fnGenRandInput(int X[], int n)
 {
 	int i;
 
-	srand(time(NULL);
+	srand(time(NULL));
 	for(i==0;i<n;i++)
 	{
 		X[i] = rand() mod 10000;
